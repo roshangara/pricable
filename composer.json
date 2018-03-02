@@ -1,0 +1,42 @@
+{
+  "name": "roshangara/priceable",
+  "description": "priceable",
+  "homepage": "https://github.com/roshangara/priceable",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "roshangara",
+    "priceable"
+  ],
+  "support": {
+    "issues": "https://github.com/roshangara/priceable/issues",
+    "source": "https://github.com/roshangara/priceable"
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.0",
+    "illuminate/database": "^5.0",
+    "roshangara/eloquent-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roshangara\\Priceable\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Roshangara\\Priceable\\PriceableServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Taghikhani",
+      "email": "mroshangara@gmail.com",
+      "homepage": "http://roshangara.ir"
+    }
+  ],
+  "minimum-stability": "dev"
+}
